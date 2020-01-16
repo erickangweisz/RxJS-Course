@@ -29,7 +29,7 @@ export class IntervalTimerComponent implements OnInit {
     this.counter = timer(miliseconds);
 
     this.counter.subscribe((n) => {
-      console.log(`triggered in ${miliseconds / 1000} seconds`);
+      console.log(`triggered at ${miliseconds / 1000} seconds`);
     });
   }
 }
