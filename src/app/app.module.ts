@@ -7,6 +7,7 @@ import { ObserverComponent } from './_components/observer/observer.component';
 import { IntervalTimerComponent } from './_components/interval-timer/interval-timer.component';
 import { FromeventComponent } from './_components/fromevent/fromevent.component';
 import { MapFilterComponent } from './_components/map-filter/map-filter.component';
+import { TapComponent } from './_components/tap/tap.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MapFilterComponent } from './_components/map-filter/map-filter.componen
     ObserverComponent,
     IntervalTimerComponent,
     FromeventComponent,
-    MapFilterComponent
+    MapFilterComponent,
+    TapComponent
   ],
   imports: [
     BrowserModule,
