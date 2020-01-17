@@ -11,7 +11,7 @@ export class TapComponent implements OnInit {
   title: string;
 
   constructor() {
-    this.title = 'Tap';
+    this.title = 'Operators: Tap';
   }
 
   ngOnInit() {

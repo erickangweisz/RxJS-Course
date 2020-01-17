@@ -8,6 +8,7 @@ import { IntervalTimerComponent } from './_components/interval-timer/interval-ti
 import { FromeventComponent } from './_components/fromevent/fromevent.component';
 import { MapFilterComponent } from './_components/map-filter/map-filter.component';
 import { TapComponent } from './_components/tap/tap.component';
+import { ShareComponent } from './_components/share/share.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TapComponent } from './_components/tap/tap.component';
     IntervalTimerComponent,
     FromeventComponent,
     MapFilterComponent,
-    TapComponent
+    TapComponent,
+    ShareComponent
   ],
   imports: [
     BrowserModule,
