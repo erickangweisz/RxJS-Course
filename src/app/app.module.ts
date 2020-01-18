@@ -9,6 +9,7 @@ import { FromeventComponent } from './_components/fromevent/fromevent.component'
 import { MapFilterComponent } from './_components/map-filter/map-filter.component';
 import { TapComponent } from './_components/tap/tap.component';
 import { ShareComponent } from './_components/share/share.component';
+import { ConcatComponent } from './_components/concat/concat.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ShareComponent } from './_components/share/share.component';
     FromeventComponent,
     MapFilterComponent,
     TapComponent,
-    ShareComponent
+    ShareComponent,
+    ConcatComponent
   ],
   imports: [
     BrowserModule,
